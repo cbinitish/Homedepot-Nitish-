@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Amazon Automation Script " parallel="true">
+
+
+    <parameter name="url" value="https://www.alibaba.com"/>
+
+    <test name = "ebay">
+        <classes>
+            <class name="alibabalogin.signinvalues"/>
+            <class name="loginamazon.homepagesignin"/>
+           </classes>
+    </test>
+
+
+
+</suite>
